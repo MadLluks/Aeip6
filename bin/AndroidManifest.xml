@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="application.aeip6.LoginActivityPolys"
+            android:label="@string/title_activity_login_activity_polys"
+            android:parentActivityName="application.aeip6.AccueilActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="application.aeip6.AccueilActivity" />
+        </activity>
     </application>
 
 </manifest>

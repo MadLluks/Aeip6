@@ -24,22 +24,40 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int action_settings=0x7f080003;
         public static final int boutonMembres=0x7f080002;
         public static final int boutonPolys=0x7f080000;
         public static final int pointCentral=0x7f080001;
+=======
+        public static final int action_settings=0x7f080004;
+        public static final int editText1=0x7f080003;
+        public static final int member=0x7f080001;
+        public static final int poly=0x7f080000;
+        public static final int textView1=0x7f080002;
+>>>>>>> Test
     }
     public static final class layout {
         public static final int activity_accueil=0x7f030000;
+        public static final int activity_login_activity_polys=0x7f030001;
     }
     public static final class menu {
         public static final int accueil=0x7f070000;
+        public static final int login_activity_polys=0x7f070001;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
+        public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+<<<<<<< HEAD
         public static final int bouton_membres=0x7f050003;
         public static final int bouton_polys=0x7f050002;
+=======
+        public static final int button_membres=0x7f050004;
+        public static final int button_polys=0x7f050003;
+        public static final int numeroEtudiant=0x7f050005;
+        public static final int title_activity_login_activity_polys=0x7f050001;
+        public static final int votreNumero=0x7f050006;
+>>>>>>> Test
     }
     public static final class style {
         /** 

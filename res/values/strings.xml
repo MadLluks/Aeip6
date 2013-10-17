@@ -2,8 +2,16 @@
 <resources>
 
     <string name="app_name">Aeip6</string>
+    <string name="title_activity_login_activity_polys">Connexion Polycopiés</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="bouton_polys">Polycopiés</string>
     <string name="bouton_membres">Membres</string>
+=======
+    <string name="button_polys">Polycopiés</string>
+    <string name="button_membres">Membres</string>
+    <string name="numeroEtudiant">Numéro d\'étudiant</string>
+    <string name="votreNumero">Votre numéro</string>
+>>>>>>> Test
 
 </resources>
