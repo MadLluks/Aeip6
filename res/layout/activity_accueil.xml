@@ -9,21 +9,31 @@
     tools:context=".AccueilActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/boutonPolys"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="79dp"
-        android:text="@string/button_polys" />
+        android:layout_above="@+id/pointCentral"
+        android:layout_marginBottom="8dp"
+        android:text="@string/bouton_polys"
+    />
+    
+    <TextView 
+        android:id="@+id/pointCentral"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=""
+    />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/boutonMembres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="@string/button_membres" />
-
+        android:layout_below="@id/pointCentral"
+        android:layout_marginTop="8dp"
+        android:text="@string/bouton_membres"
+    />
 </RelativeLayout>
