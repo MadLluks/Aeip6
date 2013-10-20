@@ -9,17 +9,13 @@
     tools:context=".AccueilActivity" >
 
     <Button
-<<<<<<< HEAD
-        android:id="@+id/boutonPolys"
-=======
         android:id="@+id/poly"
->>>>>>> Test
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/pointCentral"
         android:layout_marginBottom="8dp"
-        android:text="@string/bouton_polys"
+        android:text="@string/button_polys"
     />
     
     <TextView 
@@ -28,23 +24,14 @@
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text=""
+        android:text="@string/button_membres"
     />
 
     <Button
-<<<<<<< HEAD
-        android:id="@+id/boutonMembres"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-=======
         android:id="@+id/member"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/poly"
->>>>>>> Test
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/pointCentral"
-        android:layout_marginTop="8dp"
-        android:text="@string/bouton_membres"
-    />
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
